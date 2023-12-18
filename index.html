@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./sepetliyor favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Geleceğin En Büyük Online Alışveriş Sitesi Sepetliyor.com</title>
+</head>
+<body>
+    <header>
+        
+        <div class="menü-container">
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <div class="nav-menu">
+                <ul>
+                    <li class="anasayfa"><a class="anasayfa" href="index.html">Anasayfa</a></li>
+                    <li ><a href="./sepet.html">🛒 Sepetim <span id="cart-count">0</span></a></li>
+                    <li id="user-info" ><a href="login.html">👤 Giriş/Yeni Üye</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <a class="siteadı" href="./index.html"><h1 class="siteadı">Sepetliyor</h1></a>
+        <a href="./index.html"><div class="titlelogo">
+            <img src="./titlelogo.png"  alt="Logo">
+          </div></a>
+        <nav class="nav-bar">
+            
+            
+            <div class="categories-menu">
+                <h2>Kategoriler</h2>
+<!-- Diğer kategori bağlantıları -->
+<ul>
+    <li >
+        <a href="./urun.detay.html">Teknoloji</a>
+        <ul>
+            <li><a href="#">Bilgisayarlar</a></li>
+            <li><a href="#">Televizyonlar</a></li>
+            <li><a href="#">Telefonlar</a></li>
+            <li><a href="#">Kamera & Fotoğraf</a></li>
+            <li><a href="#">Oyun Konsolları</a></li>
+            <li><a href="#">Aksesuarlar</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Giyim</a>
+        <ul>
+            <li><a href="#">Erkek Giyim</a></li>
+            <li><a href="#">Kadın Giyim</a></li>
+            <li><a href="#">Çocuk Giyim</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Ayakkabı</a>
+        <ul>
+            <li><a href="#">Spor Ayakkabı</a></li>
+            <li><a href="#">Günlük Ayakkabı</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Aksesuarlar</a>
+        <ul>
+            <li><a href="#">Takılar</a></li>
+            <li><a href="#">Çantalar</a></li>
+            <li><a href="#">Şapkalar</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Ev & Yaşam</a>
+        <ul>
+            <li><a href="#">Ev Dekorasyonu</a></li>
+            <li><a href="#">Mutfak Gereçleri</a></li>
+            <li><a href="#">Ev Tekstili</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Spor & Outdoor</a>
+        <ul>
+            <li><a href="#">Kamp Malzemeleri</a></li>
+            <li><a href="#">Spor Aletleri</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Kitap & Hobi</a>
+        <ul>
+            <li><a href="#">Kitaplar</a></li>
+            <li><a href="#">Sanat Malzemeleri</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Oyuncaklar</a>
+        <ul>
+            <li><a href="#">Ahşap Oyuncaklar</a></li>
+            <li><a href="#">Eğitici Oyuncaklar</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Güzellik & Bakım</a>
+        <ul>
+            <li><a href="#">Cilt Bakımı</a></li>
+            <li><a href="#">Saç Bakımı</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Bebek & Anne</a>
+        <ul>
+            <li><a href="#">Bebek Giyim</a></li>
+            <li><a href="#">Anne Bakımı</a></li>
+        </ul>
+    </li>
+    <!-- İhtiyacınıza göre diğer kategorileri ve alt kategorileri ekleyin -->
+</ul>
+<!-- Diğer kategori bağlantıları -->
+
+            </div>
+        </nav>        
+    </header>
+    <div class="categories-menu2">
+        <h2>Kategoriler</h2>
+<!-- Diğer kategori bağlantıları -->
+<ul>
+<li >
+<a href="#">Teknoloji</a>
+<ul>
+    <li><a href="#">Bilgisayarlar</a></li>
+    <li><a href="#">Televizyonlar</a></li>
+    <li><a href="#">Telefonlar</a></li>
+    <li><a href="#">Kamera & Fotoğraf</a></li>
+    <li><a href="#">Oyun Konsolları</a></li>
+    <li><a href="#">Aksesuarlar</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Giyim</a>
+<ul>
+    <li><a href="#">Erkek Giyim</a></li>
+    <li><a href="#">Kadın Giyim</a></li>
+    <li><a href="#">Çocuk Giyim</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Ayakkabı</a>
+<ul>
+    <li><a href="#">Spor Ayakkabı</a></li>
+    <li><a href="#">Günlük Ayakkabı</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Aksesuarlar</a>
+<ul>
+    <li><a href="#">Takılar</a></li>
+    <li><a href="#">Çantalar</a></li>
+    <li><a href="#">Şapkalar</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Ev & Yaşam</a>
+<ul>
+    <li><a href="#">Ev Dekorasyonu</a></li>
+    <li><a href="#">Mutfak Gereçleri</a></li>
+    <li><a href="#">Ev Tekstili</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Spor & Outdoor</a>
+<ul>
+    <li><a href="#">Kamp Malzemeleri</a></li>
+    <li><a href="#">Spor Aletleri</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Kitap & Hobi</a>
+<ul>
+    <li><a href="#">Kitaplar</a></li>
+    <li><a href="#">Sanat Malzemeleri</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Oyuncaklar</a>
+<ul>
+    <li><a href="#">Ahşap Oyuncaklar</a></li>
+    <li><a href="#">Eğitici Oyuncaklar</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Güzellik & Bakım</a>
+<ul>
+    <li><a href="#">Cilt Bakımı</a></li>
+    <li><a href="#">Saç Bakımı</a></li>
+</ul>
+</li>
+<li class="cizgi">
+<a href="#">Bebek & Anne</a>
+<ul>
+    <li><a href="#">Bebek Giyim</a></li>
+    <li><a href="#">Anne Bakımı</a></li>
+</ul>
+</li>
+<!-- İhtiyacınıza göre diğer kategorileri ve alt kategorileri ekleyin -->
+</ul>
+<!-- Diğer kategori bağlantıları -->
+
+    </div>
+<section class="campaign-slider">
+  <div  class="container">
+    <button class="prev-button fa-solid fa-chevron-left" onclick="prevSlide()"> </button>
+    <div class="slides">
+      <div class="slide bir"><img src="./format_webp.jfif" alt="Kampanyalı Ürün 1"></div>
+      <div class="slide iki"><img src="format_webp (1).jfif" alt="Kampanyalı Ürün 2"></div>
+      <div class="slide uc"><img src="./format_webp (2).jfif" alt="Kampanyalı Ürün 3"></div>
+      <div class="slide dort"><img src="./format_webp (3).jfif" alt="Kampanyalı Ürün 4"></div>
+      <div class="slide bes"><img src="./format_webp (4).jfif" alt="Kampanyalı Ürün 5"></div>
+    </div>
+    <button class="next-button fa-solid fa-chevron-right" onclick="nextSlide()"> </button>
+  </div>
+</section>
+<main>        
+    <!-- İndirimli Ürünler -->
+    <div class="offer-title"><h2>İndirimli Ürünler</h2></div>
+    <section class="product-list">
+        <!-- İndirimli Ürünler -->
+        <div  class="product-box" data-product-id="401">
+            <img onclick="redirectToProductDetail()" src="./110000285195000.webp" alt="İndirimli Ürün 1">
+            <h3>İndirimli Ürün 1</h3>
+            <p>Fiyat: $19.99 <span class="discount">(İndirimli)</span></p>
+            <button onclick="addToCart(401)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="402">
+            <img onclick="redirectToProductDetail()" src="./110000529310399.jpg" alt="İndirimli Ürün 2">
+            <h3>İndirimli Ürün 2</h3>
+            <p>Fiyat: $29.99 <span class="discount">(İndirimli)</span></p>
+            <button onclick="addToCart(402)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="403">
+            <img onclick="redirectToProductDetail()" src="./110000432830142.jpg" alt="İndirimli Ürün 3">
+            <h3>İndirimli Ürün 3</h3>
+            <p>Fiyat: $39.99 <span class="discount">(İndirimli)</span></p>
+            <button onclick="addToCart(403)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="404">
+            <img onclick="redirectToProductDetail()" src="./110000529310399.jpg" alt="İndirimli Ürün 4">
+            <h3>İndirimli Ürün 4</h3>
+            <p>Fiyat: $49.99 <span class="discount">(İndirimli)</span></p>
+            <button onclick="addToCart(404)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="405">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="İndirimli Ürün 5">
+            <h3>İndirimli Ürün 5</h3>
+            <p>Fiyat: $59.99 <span class="discount">(İndirimli)</span></p>
+            <button onclick="addToCart(405)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="406">
+            <img onclick="redirectToProductDetail()" src="./format_webp (6).jfif" alt="İndirimli Ürün 6">
+            <h3>İndirimli Ürün 6</h3>
+            <p>Fiyat: $69.99 <span class="discount">(İndirimli)</span></p>
+            <button onclick="addToCart(406)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="407">
+            <img onclick="redirectToProductDetail()" src="./format_webp.webp" alt="İndirimli Ürün 7">
+            <h3>İndirimli Ürün 7</h3>
+            <p>Fiyat: $79.99 <span class="discount">(İndirimli)</span></p>
+            <button onclick="addToCart(407)">🛒 Sepete Ekle</button>
+        </div>
+        <!-- Diğer indirimli ürünler -->
+    </section>
+
+        <!-- Çok Satanlar -->
+        <div class="offer-title"><h2>Çok Satanlar</h2></div>
+        <section class="product-list">
+        <!-- Çok Satanlar -->
+        <div class="product-box" data-product-id="408">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Çok Satan Ürün 1">
+            <h3>Çok Satan Ürün 1</h3>
+            <p>Fiyat: $29.99</p>
+            <button onclick="addToCart(408)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="409">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Çok Satan Ürün 2">
+            <h3>Çok Satan Ürün 2</h3>
+            <p>Fiyat: $39.99</p>
+            <button onclick="addToCart(409)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="410">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Çok Satan Ürün 3">
+            <h3>Çok Satan Ürün 3</h3>
+            <p>Fiyat: $49.99</p>
+            <button onclick="addToCart(410)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="411">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Çok Satan Ürün 4">
+            <h3>Çok Satan Ürün 4</h3>
+            <p>Fiyat: $59.99</p>
+            <button onclick="addToCart(411)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="412">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Çok Satan Ürün 5">
+            <h3>Çok Satan Ürün 5</h3>
+            <p>Fiyat: $69.99</p>
+            <button onclick="addToCart(412)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="413">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Çok Satan Ürün 6">
+            <h3>Çok Satan Ürün 6</h3>
+            <p>Fiyat: $79.99</p>
+            <button onclick="addToCart(413)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="414">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Çok Satan Ürün 7">
+            <h3>Çok Satan Ürün 7</h3>
+            <p>Fiyat: $89.99</p>
+            <button onclick="addToCart(414)">🛒 Sepete Ekle</button>
+        </div>
+        <!-- Diğer çok satan ürünler -->
+    </section>
+
+        <!-- Senin İçin Önerilenler -->
+        <div class="offer-title"><h2>Senin İçin Önerilenler</h2></div>
+        <section class="product-list">
+        <!-- Senin İçin Önerilenler -->
+        <div class="product-box"  data-product-id="415">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Önerilen Ürün 1">
+            <h3>Önerilen Ürün 1</h3>
+            <p>Fiyat: $39.99</p>
+            <button onclick="addToCart(415)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="416">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Önerilen Ürün 2">
+            <h3>Önerilen Ürün 2</h3>
+            <p>Fiyat: $49.99</p>
+            <button onclick="addToCart(416)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="417">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Önerilen Ürün 3">
+            <h3>Önerilen Ürün 3</h3>
+            <p>Fiyat: $59.99</p>
+            <button onclick="addToCart(417)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="418">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Önerilen Ürün 4">
+            <h3>Önerilen Ürün 4</h3>
+            <p>Fiyat: $69.99</p>
+            <button onclick="addToCart(418)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="419">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Önerilen Ürün 5">
+            <h3>Önerilen Ürün 5</h3>
+            <p>Fiyat: $79.99</p>
+            <button onclick="addToCart(419)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="420">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Önerilen Ürün 6">
+            <h3>Önerilen Ürün 6</h3>
+            <p>Fiyat: $89.99</p>
+            <button onclick="addToCart(420)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="421">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="Önerilen Ürün 7">
+            <h3>Önerilen Ürün 7</h3>
+            <p>Fiyat: $99.99</p>
+            <button onclick="addToCart(421)">🛒 Sepete Ekle</button>
+        </div>
+        <!-- Diğer önerilen ürünler -->
+        </section>
+
+        <!-- En Çok Sepete Eklenen Ürünler -->
+        <div class="offer-title"><h2>En Çok Sepete Eklenen Ürünler</h2></div>
+        <section class="product-list">
+        <div class="product-box" data-product-id="422">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="En Çok Sepete Eklenen Ürün 1">
+            <h3>En Çok Sepete Eklenen Ürün 1</h3>
+            <p>Fiyat: $49.99</p>
+            <button onclick="addToCart(422)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="423">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="En Çok Sepete Eklenen Ürün 2">
+            <h3>En Çok Sepete Eklenen Ürün 2</h3>
+            <p>Fiyat: $59.99</p>
+            <button onclick="addToCart(423)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="424">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="En Çok Sepete Eklenen Ürün 3">
+            <h3>En Çok Sepete Eklenen Ürün 3</h3>
+            <p>Fiyat: $69.99</p>
+            <button onclick="addToCart(424)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="425">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="En Çok Sepete Eklenen Ürün 4">
+            <h3>En Çok Sepete Eklenen Ürün 4</h3>
+            <p>Fiyat: $79.99</p>
+            <button onclick="addToCart(425)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="426"> 
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="En Çok Sepete Eklenen Ürün 5">
+            <h3>En Çok Sepete Eklenen Ürün 5</h3>
+            <p>Fiyat: $89.99</p>
+            <button onclick="addToCart(426)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box" data-product-id="427">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="En Çok Sepete Eklenen Ürün 6">
+            <h3>En Çok Sepete Eklenen Ürün 6</h3>
+            <p>Fiyat: $99.99</p>
+            <button onclick="addToCart(427)">🛒 Sepete Ekle</button>
+        </div>
+        <div class="product-box"  data-product-id="428">
+            <img onclick="redirectToProductDetail()" src="./format_webp (5).jfif" alt="En Çok Sepete Eklenen Ürün 7">
+            <h3>En Çok Sepete Eklenen Ürün 7</h3>
+            <p>Fiyat: $89.99</p>
+            <button onclick="addToCart(428)">🛒 Sepete Ekle</button>
+        </div>
+        <!-- Diğer en çok sepete eklenen ürünler -->
+        </section>
+    
+</main>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2>Hakkımızda</h2>
+            <p>
+                Merhaba! Biz <a href="./index.html">[Sepetliyor.com]</a>, dijital dünyada benzersiz deneyimler yaratmaya ve müşterilerimize değerli hizmetler sunmaya adanmış bir ekibiz. 20 yılı aşkın bir süredir sektörde faaliyet gösteriyor ve müşteri memnuniyetini en üst düzeyde tutma vizyonu ile hareket ediyoruz.
+            </p>
+            <h2>Vizyonumuz</h2>
+            <p>
+                Misyonumuz, teknoloji ve yaratıcılığı bir araya getirerek müşterilerimize sürükleyici ve etkileşimli deneyimler sunmaktır. Hedefimiz, müşterilerimize en kaliteli ürünleri ve hizmetleri sağlayarak onların beklentilerini aşmaktır.
+            </p>
+        </div>
+        <div class="footer-section quick-links">
+            <h2>Hızlı Linkler</h2>
+            <ul>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Kullanım Şartları</a></li>
+                <li><a href="#">Gizlilik Politikası</a></li>
+                <li><a href="#">Bize Ulaşın</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social-media">
+            <h2>Sosyal medya</h2>
+            <ul>
+                <li><a href="#">Sepetliyor.com</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Pinterest</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p> Her şey ayağına gelsin! &copy; Copyright 1998 - 2023 Sepetliyor Elektronik Hizmetler Tic. A.Ş. Her Hakkı Saklıdır</p>
+    </div>
+</footer>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/c08fb4864b.js" crossorigin="anonymous"></script>
+</body>
+</html>
